@@ -1,0 +1,65 @@
+const messages = {
+  register: "User registered successfully ",
+  registerError:"Registration unsuccessfull",
+  userExists: "Users EmailId already exists",
+  unauthorizedEmail: "Invalid email ",
+  UnauthorizedPassword: "Invalid password",
+  loginSuccess: "Successful login",
+  loginError:"Login unsuccessfull",
+  TokenError: "Enter token generated for authorization",
+  Changepassword: "Password is updated to new one",
+  changepasswordError:"Password not changed",
+  UnauthorizedUser: "User doesnot exists anymore",
+  updated: "User data updated successfully",
+  updationError:"Updation Unsuccessfull",
+  mailComposed: "Mail sent ",
+  composeError:"Mail composition error",
+  messageError: "Message length is more than subscribed plan word limit",
+  fileError: "Cannot upload more files than subscribed plan",
+  ccError: "cannot add more user in cc than subscribed plan",
+  bccError: "cannot add more user in bcc than subscribed plan",
+  mssgeIdError: "Invalid mssgeId ",
+  replyError: "You cannot reply to this mail",
+  ErrorReply:"Reply mail error",
+  MailReplyed:"You replyed to mail successfully",
+  bookmarkError:"You cannot bookmark this mail",
+  bookmarked:"mail bookmarked successfully",
+  BookmarkError:"mail bookmarking unsuccessfull",
+  alreadyBookmarked:"This mail is already bookmarked by you",
+  getMailError:"You are not authorized to see this mail",
+  mailError:"Unsuccessfull attempt",
+  successMail:"You can get the mail",
+  deleteMailError:"You are not authorized to delete this mail",
+  deleteError:"Mail deletion unsuccessfull",
+  successDelete:"Mail successfully deleted",
+  alreadyDeleted:"Mail is already deleted by you",
+  mssgeDeletedError:"Mail is deleted by you so you cannot perform operation on this mail",
+  forwarded:"Mail forwarded successfully",
+  forwardError:"You are not authorized to forward this mail",
+  forwardMailError:"Mail forward unsuccessfull attempt",
+  forwardeduser:"Mails forwarded by you to others",
+  forwardTouser:"Mails forwarded by others to me",
+  inbox:"Inbox of user",
+  inboxError:"Unsuccessfull attempt to get inbox ",
+  sent:"sent box of the user",
+  senterror:"Unsuccessfull attempt to get sentBox",
+  mismatch:"No matching query for data provided by user",
+  searcherror:"Search unsuccessfull ",
+  search:"Response for search operation :-"
+
+};
+
+const responseStatus = {
+  success: 1,
+  failure: 0,
+};
+
+const statusCode = {
+  Ok: 200,
+  Created: 201,
+  Bad_request: 400,
+  Unauthorized: 401,
+  Not_Found: 404,
+};
+
+export { messages, responseStatus, statusCode };
